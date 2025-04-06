@@ -96,3 +96,22 @@ Observe a imagem e veja o que ocorreu nas setas:
 
 > <sup>**Observação:** É muito importante saber o local que está autenticado/logado, ou seja o diretório que está porque senão quando efetivar esse comando e se estiver por exemplo na sua raíz do diretório *c:* o comando irá compreender que tudo que estiver dentro do seu dispositivo deverá se adicionado.</sup>
 
+#### Comando 4
+
+##### git status
+
+![Git Status](./imagens/16.PNG)
+<sup>Este comando serve para te apresentar o que foi adicionado no seu diretório do Git temporário.</sup>
+
+> <sup>**Observação:** Veja que esse comando lhe apresenta os arquivos e diretórios adicionados, assim como os modificados.</sup>
+
+#### Comando 5
+
+##### git commit -m "primeiro commit"
+
+![Git Commit](./imagens/17.PNG)
+<sup>Essa marcação *git commit* permite corrigir o *commit* mais recente.</sup>
+
+> <sup>**Observação:** Isso é muito útil quando você esquece de preparar um arquivo ou para omitir informações importantes da mensagem do commit.</sup>
+
+
