@@ -11,6 +11,7 @@ Esse projeto tem como objetivo demonstrar, de forma prática, como instalar e co
 Após o processo de download, instale o Git no seu equipamento, no meu caso aqui foi utilizado no meu período o *Windows 10*. Mas o mesmo pode ser baixado em diversos sistemas operacionais como *Mac* quanto *Linux* veja qual melhor te atende para esse processo e verifique as diferenças de instalação.
 
 ![Git Bash](./imagens/prints/12.PNG)
+
 <sup>**IMPORTANTE:** Ao final do processo de instalação do Git selecione a opção apresentada.</sup>
 
 Neste projeto faremos todo processo de instalação no sistema operacional *Windows 10*.
@@ -21,7 +22,11 @@ Neste projeto faremos todo processo de instalação no sistema operacional *Wind
 ![Diretório Local](./imagens/prints/8.PNG)
 <sup>Diretório Local</sup>
 
+#### Diretório Local
+
 Neste processo criei um diretório local chamado **"_instalando_git_e_github"** e coloquei ele em qualquer lugar no meu equipamento. Mas é muito importante saber em qual local ele se encontra.
+
+#### Diretório Online
 
 [![Diretório Online](./imagens/prints/4.PNG)](https://github.com/andersonbfigueiredo/instalando_git_e_github.git)
 <sup>Diretório Online</sup>
@@ -58,7 +63,9 @@ Novamente no meu caso aqui estou usando o editor **VS Code**, mas você pode uti
 Após a instalação do Git, VS Code e criação de conta no Github + os diretórios (local/online) criados agora iremos para o **Git Bash**.
 
 Para acessa-lo é bem simples, primeiro clique com o botão direito do mouse na área de trabalho após feito isso aparecerá algo assim:
+
 ![Git Bash](./imagens/prints/11.PNG)
+
 <sup>**IMPORTANTE:** Lembre-se que é sobre a área de trabalho, se clicar sobre o arquivo README.md não irá ocorrer da mesma forma.</sup>
 
 ## Passo 6
@@ -138,19 +145,25 @@ Neste processo o comando a ser utilizado é <nobr>`git remote add origin https:/
 ###### Caso a minha conexão não funcione o que irá acontecer?
 
 > Neste processo o próprio Git irá lhe orientar para que fazer a **configural** de "*user.name*" ou "*user.email*", já o comando para isso poderá ser:
-1. "*user.name*" = `git config --global `SeuUsuarioLocal``
-2. "*user.email*" = `git config --global `SeuUsuarioEmail@email.com``
+1. "*user.name*" = `git config --global "SeuUsuarioLocal"`
+2. "*user.email*" = `git config --global "SeuUsuarioEmail@email.com"`
 
 Essa opção serve para definir configurações que serão aplicadas a todos os repositórios do usuário no sistema. 
 
 ###### Mas o que irá acontecer após isso?
 
 > Após o processo anterior a conexão será pré-estabelecida, solicitando as suas autenticações de usuário e senha da conta do **Github** que criamos anteriormente.
+
 1. Modal inicial
+
 ![Git Conexão inicial Github](./imagens/prints/22.PNG)
+
 2. Página de Login
+
 ![Login Github](./imagens/prints/23.PNG)
+
 3. Página de Confirmação de autenticação
+
 ![Confirmação de autenticação Github](./imagens/prints/24.PNG)
 
 #### Comando 8
@@ -179,7 +192,7 @@ https://github.com/rafaballerini
 | Git | VS Code | Markdown |          | GitHub |
 | ![Git](/imagens/icones/apps_locais/icons8-git-48.png)  | ![VS Code](/imagens/icones/apps_locais/icons8-visual-studio-code-2019-49.png)| ![Markdown](/imagens/icones/apps_locais/icons8-redução-de-preço-50.png)|          | ![GitHub](/imagens/icones/apps_online/icons8-github-50.png)  |
 
-<sup>Créditos das imagens: [Icon8](https://icons8.com.br/icons/set/vs-code)</sup>
+<sup>Créditos das imagens: [Icon8](https://icons8.com.br/icons)</sup>
 
 <div align="center">
   <strong>Anderson Brito de Figueiredo</strong> | Inspirado para facilitar a aprendizagem | 2025
