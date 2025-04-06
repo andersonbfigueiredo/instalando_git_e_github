@@ -67,7 +67,7 @@ Após a instalação do Git, VS Code e criação de conta no Github + os diretó
 
 Para acessa-lo é bem simples, primeiro clique com o botão direito do mouse na área de trabalho após feito isso aparecerá algo assim:
 
-![Git Bash](./imagens/prints/11.PNG)
+![Git Bash](./imagens/prints/11.png)
 
 <sup>**IMPORTANTE:** Lembre-se que é sobre a área de trabalho, se clicar sobre o arquivo README.md não irá ocorrer da mesma forma.</sup>
 
