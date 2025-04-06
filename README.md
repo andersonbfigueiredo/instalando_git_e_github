@@ -20,6 +20,7 @@ Neste projeto faremos todo processo de instalação no sistema operacional *Wind
 ### Crie um diretório
 
 ![Diretório Local](./imagens/prints/8.PNG)
+
 <sup>Diretório Local</sup>
 
 #### Diretório Local
@@ -29,6 +30,7 @@ Neste processo criei um diretório local chamado **"_instalando_git_e_github"** 
 #### Diretório Online
 
 [![Diretório Online](./imagens/prints/4.PNG)](https://github.com/andersonbfigueiredo/instalando_git_e_github.git)
+
 <sup>Diretório Online</sup>
 
 Após o processo anterior fui até a [página do Github](https://github.com) crei meu usuário e depois disso crie o meu primeiro diretório o qual ficom com o seguinte nome/endereço ([andersonbfigueiredo/instalando_git_e_github](https://github.com/andersonbfigueiredo/instalando_git_e_github.git)).
@@ -41,6 +43,7 @@ Após o processo anterior fui até a [página do Github](https://github.com) cre
 Quando você criar um **diretório online no Github** ele já te traz a orientação de qual arquivo criar com a nomenclatura devida, *mas isso é algo opicional que pode ser feito de outra forma*. Neste caso aqui como é um processo de formação oriento para que faça da mesma forma.
 
 ![README.md](./imagens/prints/9.PNG)
+
 <sup>README.md</sup>
 
 > MD = **Markdown** é uma linguagem de formatação simples que converte texto em HTML, facilitando a criação de documentos bem estruturados com sintaxe fácil de ler e escrever.  
@@ -76,6 +79,7 @@ Para acessa-lo é bem simples, primeiro clique com o botão direito do mouse na 
 ##### git --version
 
 ![Git Version](./imagens/prints/13.PNG)
+
 <sup>Este comando serve para verificar se a versão que baixou e instalou é a mesma que está sendo utilizada pelo Git Bash.</sup>
 
 #### Comando 2
@@ -83,6 +87,7 @@ Para acessa-lo é bem simples, primeiro clique com o botão direito do mouse na 
 ##### git init
 
 ![Git Init](./imagens/prints/14.PNG)
+
 <sup>Este comando serve para inicializar um repositório **Git**.</sup>
 
 Observe a imagem e veja o que ocorreu nas setas:
@@ -95,6 +100,7 @@ Observe a imagem e veja o que ocorreu nas setas:
 ##### git add
 
 ![Git Add](./imagens/prints/15.PNG)
+
 <sup>Este comando serve para adicionar todos os arquivos criados dentro deste diretório.</sup>
 
 **Orientação:**
@@ -108,6 +114,7 @@ Observe a imagem e veja o que ocorreu nas setas:
 ##### git status
 
 ![Git Status](./imagens/prints/16.PNG)
+
 <sup>Este comando serve para te apresentar o que foi adicionado no seu diretório do Git temporário.</sup>
 
 > <sup>**Observação:** Veja que esse comando lhe apresenta os arquivos e diretórios adicionados, assim como os modificados.</sup>
@@ -117,11 +124,13 @@ Observe a imagem e veja o que ocorreu nas setas:
 ##### git commit -m "primeiro commit"
 
 ![Git Commit](./imagens/prints/17.PNG)
+
 <sup>Essa marcação *git commit* permite corrigir o *commit* mais recente.</sup>
 
 > <sup>**Observação:** Isso é muito útil quando você esquece de preparar um arquivo ou para omitir informações importantes da mensagem do commit.</sup>
 
 ![Git Status](./imagens/prints/18.PNG)
+
 <sup>Veja que agora não se tem mais nenhum arquivo para ser *"commitado".*</sup>
 
 #### Comando 6
@@ -129,6 +138,7 @@ Observe a imagem e veja o que ocorreu nas setas:
 ##### git branch -M "main"
 
 ![Git Branch](./imagens/prints/19.PNG)
+
 <sup>Esse comando nos permite criar, listar, renomear e excluir ramificações (branches). As *branches* são linhas independentes de desenvolvimento que permitem isolar alterações e trabalhar em paralelo.</sup>
 
 Neste processo observe que sai de *(master)* para *(main)* é muito importante aonde estiver desenvolvendo verificar em qual *Branch* estão padronizados para ter sinergia em seu desenvolvimento.
@@ -138,6 +148,7 @@ Neste processo observe que sai de *(master)* para *(main)* é muito importante a
 ##### git remote
 
 ![Git Remote](./imagens/prints/20.PNG)
+
 <sup>Esse comando permite criar, ver e excluir **conexões** com outros repositórios.</sup>
 
 Neste processo o comando a ser utilizado é <nobr>`git remote add origin https://github.com/andersonbfigueiredo/instalando_git_e_github.git`</nobr> que faz o instanciamento do meu repositório local com o meu repositório online.
@@ -171,6 +182,7 @@ Essa opção serve para definir configurações que serão aplicadas a todos os 
 ##### git push
 
 ![Git Push](./imagens/prints/21.PNG)
+
 <sup>Serve para **enviar** alterações locais do repositório para um repositório online.</sup>
 
 Neste processo o comando a ser utilizado é <nobr>`git push -u origin main`</nobr>, o que fundamental para colaborar em projetos de software, permitindo compartilhar o trabalho com outros colaboradores.
